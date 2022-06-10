@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper - check if parameter is an uppercase character.
@@ -6,7 +7,7 @@
  *
  * Return: 1 if uppercase, 0 in other case.
  */
-int _isupper(intc)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
