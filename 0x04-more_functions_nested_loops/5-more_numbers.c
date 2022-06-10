@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints number between 0 and 9.
+ * more_numbers - prints number between 0 and 9.
  * 10 times.
  * Return: no return.
  */
