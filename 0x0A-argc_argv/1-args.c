@@ -1,16 +1,13 @@
-#include <stdlib.h>
 #include <stdio.h>
-int main(int argc, char* argv[])
+/**
+ * main - print argument passed to it.
+ * @argc: displays number of commands typed
+ * @argv: contain program command line arguments
+ *
+ * Return: 0 - success.
+ */
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-    int i;
-    printf("argc = %d\n", argc);
-    printf("Let's see what is in argv[i]");
-
-    for (i = 1; i < argc; i++)
-    {
-        printf("argv[%d] = %s\n", i, argv[i]);
-    }
-    printf("\n");
-
-    return (0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
