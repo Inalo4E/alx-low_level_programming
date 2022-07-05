@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * malloc_checked - this function allocates memory.
- * @bytes: amount of bytes.
+ * @b: amount of bytes.
  *
  * Return: pointer to the allocated memory.
  * if malloc fails, ensure status value is equal to 98.
