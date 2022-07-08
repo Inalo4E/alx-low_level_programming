@@ -3,10 +3,6 @@
 /**
  * print_all - prints anything.
  * @format: list of types of arguments passed to the function.
- * @c: c is of a character type.
- * @i: an is an integer type.
- * @f: f is a float type.
- * @s: s is a pointer to char type.
  *
  * Return: no return.
  */
